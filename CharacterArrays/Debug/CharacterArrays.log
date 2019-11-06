@@ -1,0 +1,5 @@
+﻿  main.cpp
+c:\users\s199083\source\repos\introtocpp\characterarrays\main.cpp(31): warning C4018: '<': signed/unsigned mismatch
+c:\users\s199083\source\repos\introtocpp\characterarrays\main.cpp(64): warning C4018: '<': signed/unsigned mismatch
+c:\users\s199083\source\repos\introtocpp\characterarrays\main.cpp(78): warning C4018: '<': signed/unsigned mismatch
+  CharacterArrays.vcxproj -> C:\Users\s199083\source\repos\IntroToCpp\Debug\CharacterArrays.exe
