@@ -1,0 +1,7 @@
+﻿  main.cpp
+c:\users\s199083\source\repos\introtocpp\arrays\main.cpp(11): warning C4018: '<': signed/unsigned mismatch
+c:\users\s199083\source\repos\introtocpp\arrays\main.cpp(20): warning C4018: '<': signed/unsigned mismatch
+c:\users\s199083\source\repos\introtocpp\arrays\main.cpp(30): warning C4018: '<': signed/unsigned mismatch
+c:\users\s199083\source\repos\introtocpp\arrays\main.cpp(42): warning C4018: '<': signed/unsigned mismatch
+c:\users\s199083\source\repos\introtocpp\arrays\main.cpp(55): warning C4018: '<': signed/unsigned mismatch
+  Arrays.vcxproj -> C:\Users\s199083\source\repos\IntroToCpp\Debug\Arrays.exe
