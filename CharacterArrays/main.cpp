@@ -28,7 +28,7 @@ void FavoriteColor()
 	cout << "Please enter your favorite color:" << endl;
 	cin >> userColor;
 
-	for (int i = 0; i < strlen(userColor); ++i)
+	for (int i = 0; i < (int)strlen(userColor); ++i)
 	{
 		userColor[i] = tolower(userColor[i]);
 	}
@@ -61,7 +61,7 @@ void ToUpper()
 	cout << "Please enter a word or phrase to be capitalized:" << endl;
 	cin.getline(userPhrase, 20);
 
-	for (int i = 0; i < strlen(userPhrase); ++i)
+	for (int i = 0; i < (int)strlen(userPhrase); ++i)
 	{
 		userPhrase[i] = toupper(userPhrase[i]);
 	}
@@ -75,7 +75,7 @@ void Whitespace()
 	cout << "Please enter a phrase with spaces:" << endl;
 	cin.getline(userPhrase, 25);
 
-	for (int i = 0; i < strlen(userPhrase); ++i)
+	for (int i = 0; i < (int)strlen(userPhrase); ++i)
 	{
 		if (userPhrase[i] == ' ')
 		{
@@ -83,6 +83,21 @@ void Whitespace()
 		}
 	}
 	cout << userPhrase << endl;
+}
+
+void Substring()
+{
+	char dest[53] = "World of Warcraft Shadowlands will release next year";
+	char source[30] = "Hopedfully Diablo 4 does too!";
+
+	strcpy_s(dest, source);
+
+	cout << dest << endl;
+}
+
+void Palindrome()
+{
+
 }
 
 int main()
@@ -93,7 +108,9 @@ int main()
 
 	//ToUpper();
 
-	Whitespace();
+	//Whitespace();
+
+	//Substring();
 
 	while(true) {}
 
