@@ -1,0 +1,3 @@
+﻿  main.cpp
+c:\users\s199083\source\repos\introtocpp\deepshallowcopytutorial\main.cpp(9): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  DeepShallowCopyTutorial.vcxproj -> C:\Users\s199083\source\repos\IntroToCpp\Debug\DeepShallowCopyTutorial.exe

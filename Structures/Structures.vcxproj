@@ -118,10 +118,16 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="person.cpp" />
     <ClCompile Include="piggy.cpp" />
+    <ClCompile Include="student.cpp" />
+    <ClCompile Include="vector2D.cpp" />
+    <ClCompile Include="zombieBattle.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="person.h" />
     <ClInclude Include="piggy.h" />
+    <ClInclude Include="student.h" />
+    <ClInclude Include="vector2D.h" />
+    <ClInclude Include="zombieBattle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

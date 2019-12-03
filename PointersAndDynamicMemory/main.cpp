@@ -219,7 +219,7 @@ int main()
 
 	//loveNumbers();
 
-	//cout << duplicateArray(intArray, 5) << endl;
+	cout << duplicateArray(intArray, 5) << endl;
 
 	//intSubArray(intArray, 5, 1, 3);
 

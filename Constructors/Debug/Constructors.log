@@ -1,0 +1,5 @@
+﻿  hero.cpp
+c:\users\s199083\source\repos\introtocpp\constructors\hero.cpp(16): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\s199083\source\repos\introtocpp\constructors\hero.cpp(18): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\s199083\source\repos\introtocpp\constructors\hero.cpp(19): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Constructors.vcxproj -> C:\Users\s199083\source\repos\IntroToCpp\Debug\Constructors.exe
