@@ -1,0 +1,3 @@
+﻿  SaveGame.cpp
+c:\users\s199083\source\repos\introtocpp\codedesign\savegame.cpp(45): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  CodeDesign.vcxproj -> C:\Users\s199083\source\repos\IntroToCpp\Debug\TextFilesIO.exe
