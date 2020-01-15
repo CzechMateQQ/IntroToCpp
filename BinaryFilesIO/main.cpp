@@ -48,9 +48,7 @@ void loadRecords(LibraryData* _records, size_t numBooks)
 				getline(txtFile, buffer);		
 				getline(txtFile, buffer);		
 				getline(txtFile, buffer);		
-				getline(txtFile, buffer);		
-				getline(txtFile, buffer);		
-				getline(txtFile, buffer);		
+				getline(txtFile, buffer);				
 				txtFile.flush();
 				txtFile.clear();
 			}
@@ -63,19 +61,49 @@ void loadRecords(LibraryData* _records, size_t numBooks)
 	}
 }
 
-void saveRecords()
+void saveRecords(LibraryData* _records)
 {
-
+	binFile.open("library.dat", ios::out | ios::binary);
+	binFile.write((char*)_records, sizeof(*_records));
+	binFile.close();
 }
 
-void findRecord()
+void findRecord(LibraryData* _records)
 {
+	bool fail = true;
+	char selection[9];
+	cout << "Enter call number of book:" << endl;
+	cin >> selection;
+	while (fail)
+	{
+		txtFile.open("library.txt", ios::in);
+		txtFile.read((char*)_records, sizeof(*_records));
+		if (selection == _records->callNum)
+		{
+			system("pause");
+			txtFile.close();
 
+			fail = false;
+		}
+		else
+		{
+			txtFile.close();
+			cout << "Entry not found, please try again:" << endl;
+			cin >> selection;
+			fail = true;
+		}
+	}
 }
 
 void displayRecord()
 {
-
+	txtFile.open("library.txt", std::ios::in);
+	while (std::getline(txtFile, buffer))
+	{
+		cout << buffer << endl;
+	}
+	system("pause");
+	txtFile.close();
 }
 
 void updateRecord()
